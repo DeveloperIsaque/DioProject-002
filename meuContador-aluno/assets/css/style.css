@@ -1,0 +1,17 @@
+body {
+    color: gray;
+    background-color: aqua;
+    text-align: center;
+}
+
+button {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+div span {
+    color: black;
+}
