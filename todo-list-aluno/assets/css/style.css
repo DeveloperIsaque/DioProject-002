@@ -37,8 +37,21 @@ form {
     border-radius: 5px;
 }
 
-button {
+form button {
     padding: 10px 20px;
+    border: 1px solid rgb(141, 141, 255);
+    color:rgb(141, 141, 255);
+    border-radius: 5px;
+    margin-left: 2em;
+}
+
+.itens button {
+    display: none;
+}
+
+.itens:hover button {
+    display: inline-block;
+    padding: 8px 14px;
     border: 1px solid rgb(141, 141, 255);
     color:rgb(141, 141, 255);
     border-radius: 5px;
@@ -55,6 +68,7 @@ button {
     justify-content: start;
     align-items: center;
     margin-top: 10px;
+    min-height: 4vh;
 }
 
 .itens input { /* Container do Check (ESPERA) */
