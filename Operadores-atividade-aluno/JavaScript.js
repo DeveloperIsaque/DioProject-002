@@ -9,7 +9,7 @@ function action() {
     const number01 = verification();
     const number02 = verification();
 
-    const affirmation = (number01 === number02) ? "são" : "nâo";
+    const affirmation = (number01 === number02) ? "são" : "não são";
 
     const soma = number01 + number02;
 
